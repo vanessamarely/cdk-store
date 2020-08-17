@@ -1,0 +1,32 @@
+
+.store {
+    display: flex;
+    flex-direction: row;
+    .section-container {
+        border: 1px solid lightgray;
+        border-radius: 15px;
+        margin: 5% 1%;
+        padding: 2em;
+        width: 50%;
+    }
+    .products,
+    .shopping-cart {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .card {
+            width: 90%;
+            @media only screen and (min-width: 860px) {  
+                width: 30%;
+            }
+        }
+    }
+}
+
+.message {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin: 5% 1%;
+    padding: 2em;
+}
